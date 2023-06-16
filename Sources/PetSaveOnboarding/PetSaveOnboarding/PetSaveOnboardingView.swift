@@ -52,7 +52,7 @@ struct PetSaveOnboardingView: View {
   private var skipButtonTitle: String {
     items[currentPageIndex].skipButtonTitle
   }
-    var body: some View {
+  public  var body: some View {
         
       if items.isEmpty {
          Text("No items to show")
